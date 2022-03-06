@@ -74,7 +74,7 @@ function checkAnswer(currentLevel){
     if (curLevel === 0 ) {
       score = 0 ;
     }else {
-      score = curLevel-1 ;
+      score = (curLevel-1)*10 ;
     }
     console.log("failure");
     playSound("wrong");
